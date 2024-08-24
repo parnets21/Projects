@@ -1,0 +1,99 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.popularnews{
+    height: 58px;
+    width: 98%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -35px;
+    margin-left: 14px;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px 0;
+    height: 551px;
+}
+
+.card-image {
+    width: 100%;
+    transition: filter 0.3s ease; 
+    /* object-fit: cover; */
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    /* font-size: 18px; */
+}
+
+.card-content p {
+    /* font-size: 14px; */
+    color: #555;
+}
+
+
+
+
+.update{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 10px;
+    margin: 1px;
+}
+.update>img{
+    height: 85px;
+    width: 101px;
+}
+.update>p{
+    margin-left: 25px;
+}
+.newsheadline {
+    margin-top: 35px;
+}
+.icon-content{
+    display: flex;
+}
+.icon-content>i{
+    margin-left: 20px;
+}
+.icon-content>p{
+    margin-left: 25px;
+    position: relative;
+    top: -16px;
+}
+
+@media (max-width:480px) {
+    .popularnews{
+        height: 51px;
+        background-color: black;
+        color: white;
+        width: 84%;
+        margin-left: 30px;
+        margin-top: 16px;
+     }
+
+}

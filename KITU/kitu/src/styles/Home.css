@@ -1,0 +1,344 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.carousel-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item .carouselimg {
+    width: 100%;
+    height: 515px;
+    object-fit: cover; 
+    animation: slideInImage 2s ease-out forwards; 
+}
+
+/* Keyframes for image sliding effect */
+@keyframes slideInImage {
+    0% {
+        transform: translateX(-100%); 
+    }
+    100% {
+        transform: translateX(0); /* End at the center */
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left:662px;
+    right: 0;
+    width: 50%; 
+    height: 100%; 
+    transform: translateX(100%); 
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0; 
+    animation: slideInCaption 2s ease-out forwards 2s, fadeInText 2s ease-out forwards 4s; /* Apply animations with delays */
+}
+
+.carousel-control-prev {
+    left: 64px;
+    height: 75px;
+    width: 75px;
+    top: 225px;
+    background-color: black;
+    border-radius: 50%;
+}
+.carousel-control-next {
+    right: 64px;
+    height: 75px;
+    width: 75px;
+    top: 225px;
+    background-color: black;
+    border-radius: 50%;
+}
+/* Keyframes for caption sliding effect */
+@keyframes slideInCaption {
+    0% {
+        transform: translateX(100%); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+/* Keyframes for text fade-in effect */
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.carousel-caption h3,
+.carousel-caption p,
+.carousel-caption button {
+    margin: 0;
+    color: white;
+    padding: 20px;
+    transform: translateX(100%);
+    opacity: 0; 
+    animation: slideInText 1.5s ease-out forwards; 
+}
+
+.carousel-caption h3 {
+    /* font-size: 2rem;  */
+    font-weight: bold; 
+    animation-delay: 0s; 
+}
+
+.carousel-caption p {
+    animation-delay: 0.5s; 
+}
+
+.carousel-caption button {
+    width: 135px;
+    font-size: 1rem;
+    animation-delay: 1s;
+    height: 51px;
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 8px;
+    line-height: 10px;
+    /* display: flex; */
+    justify-content: space-around;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    margin: 25px;
+    margin-top: 81px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Keyframes for text sliding effect */
+@keyframes slideInText {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .carousel-control-prev {
+        height: 50px; 
+        width: 50px;
+        left: 0;
+        top: 149px;
+       
+    }
+    .carousel-control-next {
+        height: 50px; 
+        width: 50px;
+        right: 0;
+        top: 149px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust carousel image for mobile */
+    .carousel-item .carouselimg {
+        height: 350px;
+        animation: slideInImageMobile 2s ease-out forwards; 
+    }
+
+    /* Base styles for the carousel item */
+    .carousel-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Adjust carousel caption for mobile */
+    .carousel-caption {
+        left: 100%;
+        width: 100%; 
+        left: 0;
+        transform: translateX(100%); 
+        opacity: 0; 
+        background: rgba(0, 0, 0, 0.8);
+        animation: slideInCaptionMobile 2s ease-out forwards 2s; /* Slide in caption after image */
+    }
+
+    /* Adjust text styles inside the caption */
+    .carousel-caption h3,
+    .carousel-caption p,
+    .carousel-caption button {
+        transform: translateX(50%); /* Start with half-visible text */
+        opacity: 0; 
+        animation: fadeInTextMobile 1.5s ease-out forwards 4s; /* Fade in text after caption */
+        padding: 15px;
+        margin-top: 15px;
+
+    }
+    .carousel-caption button {
+        height: 40px;
+        width: 91px;
+        font-size: 16px;
+
+    }
+}
+
+/* Keyframes for image sliding from left to right on mobile */
+@keyframes slideInImageMobile {
+    0% {
+        transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    100% {
+        transform: translateX(0); /* End at the center */
+    }
+}
+
+/* Keyframes for caption sliding from right to left on mobile */
+@keyframes slideInCaptionMobile {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* End at the center */
+        opacity: 1;
+    }
+}
+
+/* Keyframes for text fade-in effect on mobile */
+@keyframes fadeInTextMobile {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+
+/* Small devices (phones, 0px to 575px) */
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .card-container {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .update img {
+        width: 80px;
+        height: 70px;
+    }
+
+    .update p, .icon-content p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .icon-content > i {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 576px to 767px) */
+@media (max-width: 768px){
+    .card {
+        width: 90%;
+        margin: 15px 0;
+        height: auto;
+    }
+
+    .card-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .popularnews {
+        width: 80%;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .update img {
+        width: 90px;
+        height: 80px;
+    }
+
+    .update p, .icon-content p {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .icon-content > i {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+}
+
+
+
+/*          Our Event            */
+
+
+.ourevent{
+    height: 51px;
+    width: 66%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.carousel-item .eventimage {
+   /* border: 10px solid white; */
+  /* border-radius: 10px; */
+  padding: 25px;
+}
+
+.video-link{
+    display: flex;
+    margin-top: 25px;
+}
+.video-link>p{
+    position: relative;
+    top: -5px;
+    left: 23px;
+}
+.video-link>i{
+   margin-left: 18px;
+}
+.all-youtube-link>a{
+    text-decoration: none;
+}
+@media (max-width:480px) {
+    .video-link{
+    
+        margin-top: 15px;
+    }
+    .video-link>p{
+        position: relative;
+    top: -5px;
+    left: 12px;
+    }
+    .ourevent{
+        height: 51px;
+        width: 90%;
+        background-color: black;
+        margin-left: 21px;
+    }
+    
+}

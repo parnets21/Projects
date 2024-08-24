@@ -1,0 +1,83 @@
+import React from 'react'
+import '../styles/major.css'
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
+const MajorSector = () => {
+
+ // Slick settings
+ const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
+
+  return (
+    <section id='ourclients'>
+    <div className='ourclients' data-aos="zoom-in">
+      <h1>Our Clients</h1>
+    </div>
+    <div className="container">
+      <Slider {...settings}>
+        <div>
+          <img src="/Assets/logo.png" alt="Client 1" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/logo1.png" alt="Client 2" className='clientslogo' style={{color:"black"}} />
+        </div>
+        <div>
+          <img src="/Assets/client3logo.png" alt="Client 3" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client4logo.png" alt="Client 4" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client5logo.png" alt="Client 5" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client6logo.png" alt="Client 6" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client7logo.png" alt="Client 7" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client8logo.png" alt="Client 8" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client9logo.png" alt="Client 9" className='clientslogo' />
+        </div>
+        <div>
+          <img src="/Assets/client10logo.png" alt="Client 10" className='clientslogo' />
+        </div>
+      </Slider>
+    </div>
+  </section>
+  )
+}
+
+export default MajorSector

@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#service2{
+    height: 62vh;
+    width: 100%;
+    background-image: url("/public/Assets/kmkimg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

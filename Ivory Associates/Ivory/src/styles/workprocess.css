@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about1{
+    height: auto;
+    background-color:black;
+    color: white;
+}
+/* Add your existing styles for .workprocess */
+
+.workprocess {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+  
+  }
+  .workprocess>h1{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 5.5s steps(30, end) 1s infinite, blink-caret .75s step-end infinite;
+}
+  
+  /* Keyframes for moving the gradient */
+  @keyframes beam {
+    0% {
+      background-position: 0 0; /* Start position */
+    }
+    100% {
+      background-position: 100% 0; /* End position */
+    }
+  }
+  
+/* BorderBeam.css */
+.what-we-do {
+    position: relative;
+    padding: 20px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+    overflow: hidden;
+
+  }
+  
+  .what-we-do::before,
+  .what-we-do::after {
+    content: '';
+    position: absolute;
+    border-radius: 8px;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+  
+  .what-we-do::before {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+  }
+  
+  .what-we-do::after {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: beam 2s infinite linear;
+  }
+  
+  @keyframes beam {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+
+
+@media (max-width:480px) {
+    
+    #about1{
+        height: auto;
+        margin-top: -42px;
+    }
+   .what-we-do{
+    margin-left: 5px;
+   }
+   .what-we-do>h4{
+    font-size: 16px;
+   }
+   .what-we-do>p{
+font-size: 13px;
+   }
+   .workprocess>h1{
+    font-size: 0.8rem;
+    width: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    animation: typing 15.5s steps(30, end) 2s infinite, blink-caret 2.75s step-end infinite;
+}
+}

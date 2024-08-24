@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#about{
+    height: 40vh;
+    width: 100%;
+    background-color: #F1FAFF;
+    background-image: url("/public/Assets/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about>img{
+    height: 40vh;
+    width: 100%;
+}
+.breadcrumbt{
+    height: 30vh ;
+    width: 50%;
+flex-direction: column;
+/* background-color: blue; */
+padding-top: 101px; 
+}
+
+#about1{
+    margin-top: 70px;
+}
+.buttongroup{
+    width: 236px;
+    margin-left: -11px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.buttongroup>div>button{
+    height: 55px;
+    width: 100%;
+    /* margin-top: 15px; */
+    border: none;
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* border-bottom: 1px solid #d9d9d9; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+/* .buttongroup>div>button:hover{
+color:blue;
+
+}
+.wholebutton{
+    color: #196b9c;
+}
+.wholebutton:hover{
+    color: blue;
+} */
+.buttongroup>div>button>.buttname{
+width: 80%;
+text-align: left;
+font-size: 17px;
+}
+.verticalbar{
+    color: #c7bfbf;
+  font-size: 23px;
+   margin-right: 10px;
+  margin-left: -15px;
+}
+.greaterthan{
+    color: #d9d9d9;
+}
+hr{
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 0px;
+    color: #8d8b8b;
+}
+.ec{
+    width: 82%;
+}
+.emergency{
+    height: 155px;
+    display: flex;
+    align-items: center;   
+}
+
+.contentheading{
+   font-weight: bold;
+}
+.contentparagraph{
+    margin-top: 15px;
+}
+.emgcontent>p>{
+  font-size: large;
+}
+.contentimg>img{
+    height: 265px;
+    margin-top: 15px;
+}
+
+.limitedoffer>img{
+    width: 238px;
+    /* width: 100%; */
+    margin-left: -12px;
+
+}
+.limitedoffer>button{
+    height: 50px;
+    width: 175px;
+    /* font-size: 18px; */
+    border: none;
+    position: relative;
+    top: -65px;
+    left: 17px;
+    border-radius: 5px;
+}
+.limitedoffer>button:hover{
+   background-color: #196b9c;
+   color: white;
+}
+.seedetailsicon{
+    color: #396cf0;
+    position: relative;
+    top: -2px;
+}
+
+.limitedoffer button {
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.limitedoffer button:hover,
+.limitedoffer button:focus {
+    background-color: blue; 
+    color: white;
+}
+.seedetailsicon {
+    color: inherit; 
+}
+
+
+.golu{
+    background-color: #196b9c;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(42, 92, 220, 0.75);
+    -moz-box-shadow: 0px 2px 15px 0px rgba(42, 92, 220, 0.75);
+    box-shadow: 0px 2px 15px 0px rgba(42, 92, 220, 0.75);
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: #196B9C;
+}
+.patients p b{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+#about2{
+    height: 125vh;
+    background-color: #F3F3F3;
+    margin-top: 50px;
+    padding: 90px;
+}
+
+.rounded-circle {
+    border-radius: 52% !important;
+    height: 275px;
+    padding: 40px;
+    margin-top: -35px;
+
+}
+/* .drname{
+    text-decoration: none;
+} */
+
+.specialist>h1{
+  font-family:Rregular ;}
+.card-title {
+  text-align: center;
+}
+.card-title>a {
+  text-decoration: none !important;
+  color: #111111;
+  font-weight: bold;
+}
+.card-title>a:hover {
+  color: #072D44;
+}
+.exp{
+    font-weight: bold;
+    color: #196B9C;
+}
+.diseasename{
+    text-align: center;
+    color: 196b9c;
+}
+
+.routine{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+.routine>li{
+    margin-bottom: 5px;
+    color: #646464;
+    position: relative;
+}
+.routine>li span{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.butt{
+    height: 45px;
+    width: 100%;
+    color: #072D44;
+    border: 1px solid rgb(150, 143, 143);
+    font-weight: bold;
+    background-color: white;
+}
+.butt:hover{
+    background-color: #196b9c;
+    color: white;
+    font-weight: bold;
+}
+.react-multiple-carousel__arrow{
+    background-color: #196b9c !important;
+}
+.react-multiple-carousel__arrow:hover{
+    background-color:none !important; 
+}
+
+.react-multiple-carousel__arrow--left {
+    left: 0 !important;
+    /* display: none !important; */
+}
+.react-multi-carousel-dot button {
+    display: none !important;
+}
+
+/* Global reset for padding, margin, and box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Media query for screens 480px or smaller */
+@media only screen and (max-width: 480px) {
+    #about {
+        height: 32vh;
+    }
+    #about>img {
+        height: auto; /* Allow image to scale properly */
+    }
+    .breadcrumbt {
+        width: 100%; /* Full width for mobile screens */
+        height: auto; /* Adjust height */
+        padding-top: 60px; /* Adjust padding */
+    }
+    .buttongroup {
+        width: 300px !important;
+        margin-left: 18px;
+        padding: 20px;
+
+    }
+    .buttongroup>div>button {
+        padding: 15px; /* Adjust padding */
+        height: auto; /* Allow height to adjust */
+    }
+    .contentimg>img {
+        height: auto; /* Allow image to scale properly */
+        width: 100%; /* Full width for mobile screens */
+    }
+
+    .ec{
+        width: 95%;
+        margin-left: 8px;
+    }
+    .emergency{
+        height: 155px;
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;  
+    }
+    
+    .limitedoffer>img {
+        width: 100%; /* Full width for mobile screens */
+        margin-left: 0; /* Reset margin */
+    }
+    .limitedoffer>button {
+        width: 100%; /* Full width for button */
+        position: static; /* Reset position */
+        top: auto; /* Reset top position */
+        left: auto; /* Reset left position */
+        margin-top: 10px; /* Add some margin if needed */
+    }
+    .rounded-circle {
+        height: 200px; /* Smaller height for mobile screens */
+        padding: 20px; /* Adjust padding */
+        margin-top: 0; /* Adjust margin */
+    }
+    .specialist>h1 {
+        font-size: 20px; /* Adjust font size */
+    }
+    .allcard {
+        width: 325px;
+        margin-left: -82px;
+    }
+    .routine {
+        margin-left: 0; /* Reset margin */
+    }
+    .butt {
+        height: 40px; /* Adjust height */
+    }
+}
+
+/* Media query for screens between 481px and 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #about {
+        height: 35vh; /* Adjust height */
+    }
+    .breadcrumbt {
+        width: 70%; /* Adjust width */
+        height: auto; /* Adjust height */
+        padding-top: 80px; /* Adjust padding */
+    }
+    .buttongroup {
+        width: 100%; /* Full width for buttons */
+        margin-left: 0; /* Reset margin */
+    }
+    .buttongroup>div>button {
+        padding: 20px; /* Adjust padding */
+        height: auto; /* Allow height to adjust */
+    }
+    .contentimg>img {
+        height: auto; /* Allow image to scale properly */
+        width: 100%; /* Full width for tablets */
+    }
+    .limitedoffer>img {
+        width: 100%; /* Full width for tablets */
+        margin-left: 0; /* Reset margin */
+    }
+    .limitedoffer>button {
+        width: auto; /* Auto width for button */
+        position: static; /* Reset position */
+        top: auto; /* Reset top position */
+        left: auto; /* Reset left position */
+    }
+    .rounded-circle {
+        height: 250px; /* Adjust height */
+        padding: 30px; /* Adjust padding */
+    }
+    .specialist>h1 {
+        font-size: 24px; /* Adjust font size */
+    }
+    .allcard {
+        width: 100%; /* Full width for cards */
+        margin-left: 0; /* Reset margin */
+    }
+    .routine {
+        margin-left: 0; /* Reset margin */
+    }
+    .butt {
+        height: 45px; /* Adjust height */
+    }
+}
+
+
+
+
+
+.buttongroup {
+    display: flex;
+    flex-direction: column;
+    width: 238px; /* Adjust as needed */
+}
+
+.buttongroup > div {
+    position: relative;
+}
+
+.buttongroup button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s; /* Smooth transition for color changes */
+    position: relative;
+}
+
+.buttongroup button:focus .buttname,
+.buttongroup button:hover .buttname,
+.buttongroup button:focus .verticalbar,
+.buttongroup button:hover .verticalbar,
+.buttongroup button:focus .greaterthan,
+.buttongroup button:hover .greaterthan {
+    color: blue; 
+}
+
+
+.greaterthan {
+    color: #d9d9d9; /* Default color */
+    margin-left: auto; /* Push the icon to the far right */
+}
+
+hr {
+    margin-left: 26px;
+    margin-right: 25px;
+    margin-top: 0px;
+    color: #8d8b8b;
+    border: 0;
+    height: 1px;
+    background-color: #d9d9d9;
+}

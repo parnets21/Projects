@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#contact{
+    height: 90vh;
+    width: 100%;
+    /* background-color: #08236d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    height:45vh;
+    width: 100%;
+    /* background-color: #d810b7; */
+    /* background-image: url("https://global.hitachi-solutions.com/wp-content/uploads/2020/09/BlogBanner-20-Successful-Call-Center-Strategies-to-Implement-Today_2022_1.png"); */
+    background-image: url("/public/Assets/contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.image>h1{
+    color:#034CA8;
+    /* margin-left: 450px; */
+    padding: 10px;
+    font-weight: bolder;
+    /* margin-top: 50px; */
+    position: relative;
+    top:75px;
+    text-align: center;
+}
+/* .image>h1:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease; 
+} */
+
+#contact>.user{
+    height: 80%;
+    width: 83%;
+    /* background-color: #6d0868; */
+    display: flex;
+}
+#contact>.user>.userdata{
+    height: 100%;
+    width: 55%;
+    /* background-color: #17086d; */
+}
+#contact>.user>.userdata>p{
+    position: relative;
+    top: 35px;
+    right: -51px;
+    color:  #034CA8;
+    font-weight: bold;
+}
+#contact>.user>.userdata>h1{
+    font-weight: bolder;
+    color: #034CA8;
+    font-family: "Kanit";
+    margin-top: 50px;
+    
+}
+#contact>.user>.userdata>form{
+    line-height: 75px;
+    /* margin-top: 55px; */
+}
+#contact>.user>.userdata>form>input{
+    height: 40px;
+    width: 43%;
+    padding: 10px;
+    
+}
+#input2{
+    margin-left: 30px;
+    /* position: relative;
+    left: 10px; */
+}
+
+#contact>.user>.userdata>form>select{
+    height: 40px;
+    width: 43%;
+    margin-left: 30px;
+}
+#contact>.user>.userdata>form>textarea{
+    height: 150px;
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+}
+#contact>.user>.location{
+    height: 80%;
+    width: 45%;
+    /* background-color: #7c747c; */
+    position: relative;
+    top: 110px;
+}
+#contact>.user>.location>.address{
+    height: 35%;
+    width: 100%;
+    /* background-color: #1d10d8; */
+}
+#contact>.user>.location>.address>P{
+    margin-left: 80px;
+    margin-top: -60px;
+}
+#contact>.user>.location>.address>.email>li{
+    list-style: none;
+    
+}
+#contact>.user>.location>.address>.locationimg{
+    height: 70px;
+    width: 70px;
+    background-color: rebeccapurple;
+    /* background-image: url("https://qph.cf2.quoracdn.net/main-qimg-5f02e08209ad9f173f20b94c56296fd8"); */
+    background-size: cover;
+    background-position: center;
+
+}
+
+#contact>.user>.location>.email{
+    height: 40%;
+    width: 100%;
+    position: relative;
+    top: 15px;
+    /* background-color: #d8108b; */
+}
+#contact>.user>.location>.email>p{
+    position: relative;
+    top: 1px;
+    margin-bottom:10px;
+    left: 40px;
+}
+#contact>.user>.location>.email>.addres{
+    margin-left: 15px;
+}
+
+#contact>.user>.location>.email>li{
+    list-style: none;
+    line-height: 10px;
+    position: relative;
+    top: 22px;
+}
+#contact>.user>.location>.logo{
+    height: 25%;
+    width: 100%;
+    /* background-color: #706ac4; */
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+#contact>.user>.location>.logo>li{
+    list-style: none;
+    height: 25px;
+    font-size: 35px;
+    margin: 13px;
+}
+.quick{
+    color: #034CA8;
+}
+#contact>.but{
+    height: 20%;
+    width: 86%;
+    display: flex;
+    justify-content: baseline;
+}
+#contact>.but>button{
+    height: 60px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #16213E;
+    border: none;
+    cursor: pointer;
+    margin-left: 18px;
+    position: relative;
+    top: 30px;
+}
+#contact>.but>button:hover{
+    background-color: #007bff;
+}
+
+@media (max-width: 480px) {
+
+    .image>h1{
+        position: relative;
+        top:208px;
+    }
+
+
+    #contact > .user {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #contact > .user > .userdata {
+        width: 90%;
+    }
+    
+    #contact > .user > .location {
+        width: 90%;
+        top: -51px; /* Adjust positioning as needed */
+    }
+    #contact>.user>.location>.email{
+           position: relative;
+           top: 40px;
+           padding: 63px;
+    }
+    #contact>.user>.location>.email>li{
+        position: relative;
+        top: 22px;
+        left: -105px;
+    }
+    #contact>.user>.location>.logo{
+        position: relative;
+        top: 100px;
+        left: 32px;
+    }
+    #contact > .but {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 75px;
+    }
+    
+    #contact > .but > button {
+        /* margin: 20px 0; */
+        position: relative;
+        top: -621px;
+      
+
+    }
+    
+    #contact > .user > .location > .logo > li {
+        font-size: 25px;
+    }
+    #contact > .user > .location > .address{
+        position: relative;
+        top: 75px;
+        margin-top: 101px;
+    }
+    #contact > .user > .location > .address>p{
+        position: relative;
+        /* top: 16px; */
+    }
+    #contact > .user > .location > .address > .locationimg {
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+    }
+    
+    #contact > .user > .userdata > form > input,
+    #contact > .user > .userdata > form > select,
+    #contact > .user > .userdata > form > textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #contact > .user > .location > .email > p {
+        left: 0;
+        text-align: center;
+    }
+    
+    #contact > .user > .location > .email > li {
+        text-align: center;
+        padding: 5px 0;
+    }
+}
+/* Media query for screens up to 480px wide */
+@media (max-width: 480px) {
+    .image {
+        height: 30vh; /* Reduce height of the image section */
+        background-size: contain; /* Ensure background image is fully visible */
+    }
+
+    .image > h1 {
+        font-size: 1.5rem; /* Reduce font size of the heading */
+        top: 45px; /* Adjust top positioning of the heading */
+    }
+
+    #contact {
+        height: auto; /* Allow section height to adjust based on content */
+    }
+
+    .user {
+        flex-direction: column; /* Stack user data and location vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .userdata {
+        width: 90%; /* Adjust width of userdata on smaller screens */
+    }
+
+    .location {
+        width: 90%; /* Adjust width of location on smaller screens */
+        top: 0; /* Reset top positioning */
+    }
+
+    .location > .address > p {
+        margin-left: 0; /* Reset margin */
+        margin-top: 0; /* Reset margin */
+        text-align: center; /* Center align address text */
+    }
+
+    .location > .email > p {
+        text-align: center; /* Center align contact info text */
+        margin-left: 0; /* Reset margin */
+    }
+
+    .but {
+        width: 90%; /* Adjust width of button section */
+        margin-top: 20px; /* Add margin for spacing */
+    }
+
+    .but > button {
+        width: 100%; /* Make button full width */
+        margin-left: 0; /* Reset margin */
+        margin-top: 10px; /* Adjust margin for spacing */
+    }
+}

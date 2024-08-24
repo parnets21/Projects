@@ -1,0 +1,223 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+/* Booking container */
+.booking-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+/* Left content */
+.left-content {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.certification {
+    display: inline-block;
+    background-color: #f0f0ff;
+    color: #6060ff;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.left-content h1 {
+    font-size: 28px;
+    color: #0284c7;
+    margin-bottom: 16px;
+}
+
+.left-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.call-btn, .whatsapp-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.call-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.call-btn:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1da94a;
+}
+
+/* Right content */
+.right-content {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.right-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and small screens */
+@media (max-width: 768px) {
+    .booking-container {
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Adjust padding */
+        margin: 20px; /* Adjust margin */
+    }
+
+    .left-content,
+    .right-content {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+
+    .left-content h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .left-content p,
+    .right-content p {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px; /* Adjust gap for buttons */
+    }
+
+    .call-btn, .whatsapp-btn {
+        padding: 10px 20px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .form-group input {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .submit-btn {
+        font-size: 16px; /* Adjust font size */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .booking-container {
+        padding: 10px; /* Further adjust padding */
+        margin: 10px; /* Further adjust margin */
+    }
+
+    .left-content h1 {
+        font-size: 20px; /* Further adjust font size */
+    }
+
+    .left-content p,
+    .right-content p {
+        font-size: 12px; /* Further adjust font size */
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 5px; /* Further adjust gap for buttons */
+    }
+
+    .call-btn, .whatsapp-btn {
+        padding: 8px 16px; /* Further adjust padding */
+        font-size: 12px; /* Further adjust font size */
+    }
+
+    .form-group input {
+        font-size: 12px; /* Further adjust font size */
+    }
+
+    .submit-btn {
+        font-size: 14px; /* Further adjust font size */
+    }
+}

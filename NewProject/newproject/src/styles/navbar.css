@@ -1,0 +1,54 @@
+/* src/styles/navbar.css */
+.nav{
+  flex-direction: column;
+  left: -15px;
+  position: relative;
+}
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+  }
+  
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+
+  .btn-primary {
+    width: 101px;
+    position: relative;
+    /* left: 111px; */
+  }
+
+    /* Navbar */
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+/* Button Adjustments */
+
+@media(max-width:480px){
+  .btn-secondary {
+    width: 120px;
+  }
+  .btn-primary {
+    width: 120px;
+  }
+}
+
+/* Offcanvas Menu */
+.offcanvas-body .container {
+  padding-left: 0;
+  padding-right: 0;
+}

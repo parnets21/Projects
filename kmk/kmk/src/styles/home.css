@@ -1,0 +1,779 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.carousel-caption
+{
+  left:9% !important;
+  top:87px !important;
+  right: 0 !important;
+  text-align: start !important;
+  /* line-height: 70px !important; */
+}
+.carousel-caption>h6{
+  color: darkgreen;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.carousel-caption>p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 35px;
+}
+.carousel-caption h1 {
+  color: #fff;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 105px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  /* font-weight: bold; */
+}
+.headingcarousel{
+    height: 275px;
+    width: 75%;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 11px;
+    margin-top: 129px;
+    margin-left: 71px;
+}
+.headingcarousel h6{
+  color: #3CA934;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.carousel-caption>button{
+  height: 55px;
+  width: 165px;
+  border-radius: 10px;
+  border: none;
+  background-color:#3DA935;
+  color: white;
+  /* padding-top: -32px; */
+  margin-top: 20px;
+}
+.imgcorousel{
+  height: 115vh;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .carousel-caption {
+    left: 5% !important; /* Adjust left position for smaller screens */
+    top: 60px !important; /* Reduce top space for mobile */
+    text-align: center !important; /* Center align text for smaller screens */
+  }
+  .headingcarousel{
+    height: 42vh;
+    width:72%
+  }
+  .carousel-caption > h6 {
+    font-size: 14px; /* Adjust font size */
+    letter-spacing: 1px; /* Reduce letter spacing */
+  }
+
+  .carousel-caption > p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 28px; /* Adjust line height */
+  }
+
+  .carousel-caption h1 {
+    font-size: 50px; /* Adjust font size */
+    line-height: 70px; /* Adjust line height */
+    margin: 20px 0; /* Adjust margin */
+  }
+
+  .carousel-caption > button {
+    height: 40px; /* Adjust button height */
+    width: 140px; /* Adjust button width */
+    font-size: 14px; /* Adjust font size */
+    margin-top: 15px; /* Adjust top margin */
+  }
+  .imgcorousel{
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    left: -30px !important;
+        top: -71px !important;
+        text-align: center !important;
+  }
+
+  .carousel-caption > h6 {
+    font-size: 12px; /* Further adjust font size */
+    letter-spacing: 1px; /* Further reduce letter spacing */
+  }
+
+  .carousel-caption > p {
+    font-size: 14px; /* Further adjust font size */
+    line-height: 24px; /* Further adjust line height */
+  }
+
+  .carousel-caption h1 {
+    font-size: 36px; /* Further adjust font size */
+    line-height: 50px; /* Further adjust line height */
+    margin: 15px 0; /* Further adjust margin */
+  }
+
+  .carousel-caption > button {
+    height: 40px; /* Further adjust button height */
+    width: 120px; /* Further adjust button width */
+    font-size: 12px; /* Further adjust font size */
+    margin-top: 10px; /* Further adjust top margin */
+  }
+  .imgcorousel{
+    height: 60vh;
+  }
+}
+
+
+
+/* Base Styles */
+.disposal {
+  margin-top: 30px;
+}
+.waste {
+  background-color:#F8F9FA;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3CA934;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
+}
+.poineers {
+  height: 111px;
+  /* background-color: #3DA935; */
+  display: flex;
+  align-items: center;
+  color: #3CA934;
+  /* margin-top: 21px; */
+}
+.providing {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+.token {
+  font-size: 25px;
+  color: #024731;
+  /* margin-top: 50px; */
+}
+.ontime {
+  /* background-color: #3DA935; */
+  font-size: large;
+  color: #024731;
+}
+.learn > button {
+  height: 50px;
+  width: 165px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3DA935;
+  color: white;
+  margin-top: 23px;
+  margin-left: 95px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .disposal {
+    margin-top: 50px;
+  }
+
+  .waste {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .poineers {
+    height: auto;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .providing {
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .token {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .ontime {
+    font-size: medium;
+  }
+
+  .learn > button {
+    height: 45px;
+    width: 140px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .disposal {
+    margin-top: 30px;
+  }
+
+  .waste {
+    height: 35px;
+        font-size: 11px;
+  }
+
+  .poineers {
+    height: auto;
+        margin-top: 12px;
+        margin-left: -60px;
+  }
+
+  .providing {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .token {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .ontime {
+    font-size: small;
+  }
+
+  .learn > button {
+    height: 40px;
+    width: 125px;
+    margin-left: 0px;
+  }
+}
+
+#ourservices{
+  height: 111vh;
+  width: 100%;
+  background-color: #EBF1ED;
+  margin-top: 30px;
+}
+.our>h1{
+  /* margin-top: 100px; */
+  position: relative;
+  top: 30px;
+  text-align: center;
+  color: green;
+}
+.services{
+  margin-top: 150px;
+}
+.cardimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -65px;
+}
+.card-body{
+  height: 250px !important;
+  margin-left: 70px;
+  width: 300px !important;
+
+}
+.card-body>p{
+   margin-top: 25px;
+}
+.card-body>a>button{
+  margin-top: 25px;
+  height: 50px;
+  width: 150px;
+  background-color: #3CA934;
+  border: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #ourservices {
+    height: auto; /* Adjust height for smaller screens */
+    margin-top: 0px; /* Reduce margin-top for mobile */
+  }
+
+  .our > h1 {
+    top: 50px; /* Adjust vertical position */
+    font-size: 24px; /* Adjust font size for better readability */
+  }
+
+  .services {
+    margin-top: 80px; /* Reduce margin-top for mobile */
+  }
+
+  .cardimg {
+    flex-direction: column; 
+    width:90%
+  }
+
+  .card-body {
+    height: auto; /* Remove fixed height */
+    margin-left: 20px; /* Adjust margin for mobile */
+    width: 90%; /* Make card width responsive */
+  }
+
+  .card-body > p {
+    margin-top: 15px; /* Adjust margin for mobile */
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .card-body > a > button {
+    margin-top: 15px; /* Adjust margin-top for mobile */
+    height: 45px; /* Adjust button height */
+    width: 120px; /* Adjust button width */
+  }
+}
+
+@media (max-width: 480px) {
+  .our > h1 {
+    top: 30px; /* Further adjust vertical position */
+    font-size: 20px; /* Further adjust font size */
+  }
+
+  .services {
+    margin-top: 120px; 
+    margin-left: 10px;
+  }
+
+  /* .card-body {
+  
+  } */
+
+  /* .card-body > p {
+  
+  } */
+
+  .card-body > a > button {
+    margin-top: 10px; /* Further adjust margin-top */
+    height: 40px; /* Further adjust button height */
+    width: 111px; /* Further adjust button width */
+  }
+}
+
+#recycling{
+  background-color: #3CA934;
+  height: 96vh;
+  padding-top: 30px;
+}
+.environment>p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.environment>h1{
+  color: white;
+}
+.environment1>p{
+  color: white;
+}
+.butt{
+  margin-top: 15px;
+}
+.butt1{
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.butt2{
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  margin-left: 25px;
+  background-color: white ;
+}
+.butt2:hover{
+  background-color: green;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #recycling {
+    height: auto;
+    position: relative;
+    top: -50px;
+   
+  }
+
+  .environment > p {
+    font-size: 14px; /* Smaller font size for mobile */
+    letter-spacing: 1px; /* Reduce letter-spacing */
+  }
+
+  .environment > h1 {
+    font-size: 24px; /* Adjust font size for headers */
+  }
+
+  .butt {
+    text-align: center; /* Center align buttons on mobile */
+    margin-top: 10px; /* Reduce margin for mobile */
+  }
+
+  .butt1, .butt2 {
+    height: 45px; /* Adjust height */
+    width: 120px; /* Adjust width */
+  }
+
+  .butt2 {
+    margin-left: 0; /* Remove margin-left on smaller screens */
+    margin-top: 10px; /* Add margin-top for spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .environment > p {
+    font-size: 12px; /* Further reduce font size */
+    letter-spacing: 0.5px; /* Further reduce letter-spacing */
+  }
+
+  .environment > h1 {
+    font-size: 20px; /* Further adjust font size */
+  }
+
+  .butt1, .butt2 {
+    height: 40px; /* Further adjust height */
+    width: 100px; /* Further adjust width */
+  }
+
+}
+
+
+
+
+.dabba{
+  margin-top: 45px;
+}
+.collection{
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+.collection>div{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.collection>div>h5{
+  margin-top: 21px;
+}
+.collection>div>p{
+  padding: 15px;
+
+}
+
+
+
+#choose{
+  height: 100vh;
+
+}
+.us{
+     padding: 0;
+     margin-top: 30px;
+}
+.imgcon{
+  height: 78vh;
+  width: 90%;
+}
+.whychoosekmk{
+  color: green;
+}
+.knowmore{
+  text-align: center;
+}
+.knowmore>a>button{
+  height: 50px;
+  width: 250px;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  margin: 25px;
+  color: white;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #choose {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .us {
+    margin-top: 80px; /* Reduce margin-top for mobile */
+  }
+  .imgcon{
+    height: 50vh;
+    width: 100%;
+  }
+  .knowmore > button {
+    height: 45px; /* Adjust button height for mobile */
+    width: 200px; /* Adjust button width for mobile */
+    margin: 30px; /* Reduce margin for mobile */
+  }
+  .collection>div>h5{
+    margin-top: -55px;
+  }
+  .collection>div>p{
+    margin-top: -21px;
+     
+   }
+
+   .collection>div>img{
+      padding-right: 175px;
+      padding-top: 5px;
+}
+
+}
+
+@media (max-width: 480px) {
+  .collection{
+    height: 208px;
+      width: 100%;
+      background-color: white;
+      border-radius: 8px;
+      padding: 0px;
+      /* margin: 1px; */
+      line-height: 28px;
+      margin-top: 15px;
+  }
+  .us {
+    margin-top: -11px; /* Further reduce margin-top for smaller screens */
+  }
+
+  .knowmore > button {
+    height: 48px;
+        width: 175px;
+        margin: 20px;
+        color: white;
+  }
+  
+
+}
+
+/* #ourclients{
+  background-color: #d6d6d6;
+} */
+.ourclients{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: green;
+}
+
+.clientslogo{
+  width: 100%;
+  height: 95px;
+  /* border: 1px solid green; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.clientslogo:hover{
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
+  /* transition: all .4s ease-in-out; */
+
+}
+/* General styles for the client logos section */
+#ourclients {
+  background-color: #f8f9fa;
+  margin-top: -50px;
+  height: 275px;
+}
+
+.ourclients h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 40px;
+  color: green;
+  position: relative;
+  /* top: -31px; */
+
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clientslogo {
+  display: block;
+  width: 100%;
+  height: 135px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.slick-slide {
+  text-align: center;
+}
+
+/* Styles for the Slick Carousel dots (navigation) */
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: #333; /* Dot color */
+}
+
+.slick-prev, .slick-next {
+  color: #333; /* Arrow color */
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .slick-slide {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .clientslogo {
+    padding: 0.5rem;
+  }
+
+  .slick-slide {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .clientslogo {
+    padding: 0.25rem;
+  }
+
+  #ourclients h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+#testimonials{
+  height: 60vh;
+  background-color: #EBF1ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 70px; */
+}
+.customer{
+  text-align: center;
+  color:#3CA934;
+}
+.test{
+  width: 75%;
+  margin-left: 111px;
+
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel-content {
+  height: 251px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  background-color: green;
+  color: white;
+  margin-top: 35px;
+}
+
+.carousel-button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.carousel-button:focus {
+  outline: none;
+}
+
+.carousel-button:hover {
+  background: #06e764;
+}
+
+.carousel-button:disabled {
+  background: #d6d6d6;
+  cursor: not-allowed;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #testimonials {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .test {
+    width: 90%; /* Increase width for better use of space */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .carousel-content {
+    height: auto; /* Adjust height for better adaptability */
+    padding: 15px; /* Reduce padding for smaller screens */
+    margin-top: 20px; /* Adjust top margin */
+  }
+
+  .carousel-button {
+    font-size: 14px; /* Adjust font size for better readability */
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #testimonials {
+    height: auto; /* Ensure height is flexible */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .test {
+    width: 100%; /* Full width for mobile screens */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .carousel-content {
+    height: auto; /* Ensure height adjusts to content */
+    padding: 10px; /* Further reduce padding */
+    margin-top: 15px; /* Further adjust top margin */
+  }
+
+  .carousel-button {
+    font-size: 12px; /* Further reduce font size */
+    padding: 6px; /* Further adjust padding */
+  }
+}

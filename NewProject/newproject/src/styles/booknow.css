@@ -1,0 +1,84 @@
+/* Container */
+.booking-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Image */
+  .tanker-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .booking-header h2 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subheader */
+  .booking-subheader {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .booking-subheader span {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Details */
+  .booking-details {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Options */
+  .booking-options p {
+    margin-bottom: 15px;
+  }
+  
+  .booking-options label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .booking-options select {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .booking-button button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 21px;
+  }
+  
+  .booking-button button:hover {
+    background-color: #0056b3;
+  }
+  

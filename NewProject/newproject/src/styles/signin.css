@@ -1,0 +1,30 @@
+.form-group {
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  
+  input, .react-phone-input-2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .theme-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .theme-btn:hover {
+    background-color: #0056b3;
+  }
+  

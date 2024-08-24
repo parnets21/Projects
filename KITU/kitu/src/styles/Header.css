@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #1a1a1a; /* Adjusted to match your design */
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.address {
+    font-size: 14px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f0ad4e; /* Highlight color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        /* display: none; */
+
+    }
+
+    .address {
+        margin-bottom: 10px;
+    }
+    .mobile-header{
+        display: none;
+    }
+}

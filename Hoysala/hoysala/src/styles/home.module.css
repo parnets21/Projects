@@ -1,0 +1,362 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #home{
+    height: 100vh;
+    width: 100%;
+    background-color:#F4F9E7;
+    display: flex;
+    justify-content: center;
+} */
+#works{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    top: -155px;
+
+}
+#works>.project{
+    height: 100vh;
+    width: 100%;
+}
+#works>.project>button{
+    height: 50px;
+    width: 220px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #08236d;
+    border: none;
+    cursor: pointer;
+    /* margin-top: 50px; */
+    position: relative;
+    left: 400px;
+}
+#works>.project>.project1{
+    height: 10%;
+    width: 100%;
+    /* background-color: #3fd810; */
+    display: flex;
+    justify-content: center;
+}
+#works>.project>.project1>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    /* left: 250px; */
+    top: -60px;
+    left: 250px;
+    padding: 10px;
+    color: #08236d;
+
+}
+#works>.project>.project1>h1{
+    font-size: xxx-large;
+    color: #08236d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#works>.project>.project2{
+    height: 40%;
+    width: 100%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content:end;
+}
+#works>.project>.project2>.project21{
+    height: 50%;
+    width: 30%;
+    background-color: #d810b7;
+    position: relative;
+    /* top: 25px; */
+    height: 513px;
+    background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\temple1.jfif");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#works>.project>.project2>.project22{
+    height: 100%;
+    width: 35%;
+    background-color: #d83f10;
+    background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\temple2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#works>.project>.project2>.project23{
+    height: 100%;
+    width: 35%;
+    background-color: #c7aba2;
+    background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\ghar.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#works>.project>.project3{
+    height: 40%;
+    width: 100%;
+    /* background-color: #10d831; */
+    display: flex;
+    justify-content: end;
+}
+#works>.project>.project3>.project31{
+    height: 100%;
+    width: 35%;
+    background-color: #5610d8;
+    background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\commercial2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#works>.project>.project3>.project32{
+    height: 100%;
+    width: 35%;
+    background-color: #d8c410;
+    background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\factory.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+
+
+
+#works .project .project2 .project21:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 45px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(241, 16, 230, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width to fit */
+    padding: 10px;
+}
+
+#works .project .project2 .project22:hover::after{
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 70%; /* Adjust width to fit */
+    padding: 10px;
+
+}
+#works .project .project2 .project23:hover::after{
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%; /* Adjust width to fit */
+    padding: 10px;
+}
+#works .project .project3 .project31:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 75%; /* Adjust width to fit */
+    padding: 10px;
+  }
+
+  #works .project .project3 .project32:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%; /* Adjust width to fit */
+    padding: 10px;
+  }
+#works .project .project2 .project21:hover::after {  
+  content: "Homestay";
+  color: rgb(245, 245, 253);
+}
+
+#works .project .project2 .project22:hover::after {
+  content: "Temple Construction";
+  color: rgb(217, 217, 238);
+}
+
+#works .project .project2 .project23:hover::after {
+  content: "Commercial Complexes";
+  color: white;
+}
+
+#works .project .project3 .project31:hover::after {
+  content: "Residential Buildings";
+  color: white;
+}
+
+#works .project .project3 .project32:hover::after {
+  content: "Factory & Warehouse Buildings";
+  color: white;
+  
+}
+
+
+
+#works > .project > .project2 .project21:hover,
+#works > .project > .project2 .project22:hover,
+#works > .project > .project2 .project23:hover,
+#works > .project > .project3 .project31:hover,
+#works > .project > .project3 .project32:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transform: scale(1.1); /* Scale up by 10% on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+
+
+@media (max-width: 480px) {
+    /* Media query for screens up to 480px wide */
+    #works {
+        top: 800px; /* Reset top position */
+        position: relative;
+
+
+    }
+
+    #works > .project > button {
+        width: 180px; /* Adjust button width for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for spacing */
+    }
+
+    #works > .project > .project1 > p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        position: absolute;
+        top: -58px;
+        left: 100px;
+    }
+    #works > .project > .project1 > h1{
+        font-size: 28px;
+        margin-top: 11px;
+    }
+#works > .project >.project1{
+    position: relative;
+    top: 130px;
+}
+#works > .project > .project2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    height: 950px;
+    top: 135px;
+
+}
+#works > .project > .project3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 800px;
+    top: 135px;
+}
+    #works > .project > .project2 > .project21,
+    #works > .project > .project2 > .project22,
+    #works > .project > .project2 > .project23,
+    #works > .project > .project3 > .project31,
+    #works > .project > .project3 > .project32 {
+        position: relative;
+        height: 350px;
+        width: 350px;
+        border: 8px solid white;
+        
+    }
+
+    #works > .project > button {
+        width: 80%; /* Full width for mobile devices */
+        /* max-width: 480px; Limit maximum width */
+        left: auto; /* Reset left position */
+        position: relative;
+        top: 118px;
+    }
+
+}
+
+/* Hover effect for project tiles */
+#works .project .project2 .project21:hover::after {
+    content: attr(data-content);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 10px;
+    z-index: 1; /* Ensure hover tooltip is above images */
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#head{
+    height: 200px;
+
+}
+
+.header {
+    background-color:#034CA8;
+    color: white;
+    padding: 11px 19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contactInfo {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactItem i {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #333;
+      color: white;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000; 
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+  
+    .contactInfo {
+      margin-top: 1px;
+      flex-direction: column;
+      display: flex;
+      gap: 8px;
+    }
+
+    .contactItem {
+      margin-bottom: 10px;
+    }
+  }
+
+  
+
+/* homepage.module.css */
+
+/* Navbar style */
+.nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    margin-top: 25px;
+  }
+  
+  /* Logo style */
+  .logo img {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  
+  /* Menu items container */
+  
+  /* Menu item style */
+  .menuItem {
+    text-decoration: none;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  }
+  
+  /* Hover effect for menu items */
+  .menuItem:hover {
+    color:#2C66BD !important; /* Hover color */
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .nav {
+      margin-top: 118px;
+    }
+    .menuItems {
+      text-align: center;
+    }
+  
+    .menuItems.flex-column {
+      padding-top: 10px;
+    }
+  
+    .menuItems.ms-auto {
+      margin-left: auto;
+    }
+  }
+  

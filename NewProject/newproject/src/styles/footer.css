@@ -1,0 +1,36 @@
+/* src/styles/footer.css */
+
+footer {
+  background-color: #002C8F; /* Set the background color to #002C8F */
+  color: #ffffff; /* Set the text color to white for better contrast */
+  padding: 20px 0;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer p,
+footer address {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  color: #ffffff; /* Set link color to white */
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #ffd700; /* Change color on hover (optional) */
+}

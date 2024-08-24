@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #002C8F;
+}
+.carouselimg{
+    height: 585px;
+    width: 40%;
+    margin-left: 95px;
+    margin-top: 0px;
+}
+.waterbottomimg{
+    /* width: 100%; */
+    height: 300px;
+    margin-left: -188px;
+    margin-top: -364px;
+}
+
+.carousel-caption
+{
+  left:9% !important;
+  top:87px !important;
+  right: 0 !important;
+  text-align: start !important;
+  /* line-height: 70px !important; */
+}
+
+.imgcorousel{
+  height: 94vh;
+}
+.w-100 {
+    width: 60% !important;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .carousel-caption {
+    left: 5% !important; /* Adjust left position for smaller screens */
+    top: 60px !important; /* Reduce top space for mobile */
+    text-align: center !important; /* Center align text for smaller screens */
+  }
+  .carousel-caption > button {
+    height: 40px; /* Adjust button height */
+    width: 140px; /* Adjust button width */
+    font-size: 14px; /* Adjust font size */
+    margin-top: 15px; /* Adjust top margin */
+  }
+  .imgcorousel{
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    left: -50px !important;
+        top: -71px !important;
+        text-align: center !important;
+        width: 100% !important;
+  }
+
+  .carousel-caption > button {
+    height: 40px; /* Further adjust button height */
+    width: 120px; /* Further adjust button width */
+    font-size: 12px; /* Further adjust font size */
+    margin-top: 10px; /* Further adjust top margin */
+  }
+  .imgcorousel{
+    height: 60vh;
+  }
+}
+
+.container {
+    padding: 0;
+  }
+  
+  #headingcarouse {
+    position: relative;
+  }
+  
+  .carousel-img-container {
+    position: relative;
+  }
+/*   
+  .imgcorousel {
+    height: 500px; 
+    object-fit: cover;
+  } */
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    z-index: 1;
+  }
+  
+  .carousel-caption {
+    height: 11vh;
+    background-color: rgba(34, 34, 34, 0.8);
+    width: 50%;
+    margin-top: 175px;
+    margin-left: 50px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+ .carousel-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 35px;
+    font-weight: bold;
+  }
+  
+  .carousel-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  @keyframes typing {
+    0% { width: 0; }
+    70% { width: 100%; } /* Adjust the percentage to control when the text stops expanding */
+    100% { width: 0; } /* Reset the width to 0 to loop the typing effect */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+/* .carousel-text-animation {
+    font-size: 1.5em; 
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: 0.15em solid black;
+    animation: typing 5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    width: 0; 
+} */
+
+  #ourservice{
+    height: 85vh;
+    width: 100%;
+    /* background-color: #002C8F; */
+  }
+  .os{
+    margin-top: 0px !important;
+  }
+  .serviceimg{
+    width: 100%;
+
+  }
+
+.imgcard{
+  height: 138px;
+  width: 251px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px;
+  position: relative;
+  top: -84px;
+  background: white;
+  left: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn-primary {
+    background-color:white;
+    border-color: black;
+  }
+  
+  .btn-primary:hover {
+    background-color: black;
+    border-color: white;
+  }
+  
+
+  @media (max-width: 992px) {
+    #ourservice {
+        height: 70vh;
+    }
+    .card-title {
+        font-size: 1.4rem;
+    }
+    .card-text {
+        font-size: 0.95rem;
+    }
+    .my-5 {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* For mobile devices (portrait mode) */
+@media (max-width: 768px) {
+    #ourservice {
+        height: 60vh;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+    .my-5 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .card {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+    .carousel-caption {
+      height: 13vh;
+      background-color: rgba(34, 34, 34, 0.8);
+      width: 78%;
+      margin-top: 75px;
+    }
+}
+
+/* For smaller mobile devices (e.g., iPhone SE) */
+@media (max-width: 480px) {
+    #ourservice {
+      height: auto;
+     
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+    .card-text {
+        font-size: 0.85rem;
+    }
+    .my-5 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .card {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .p-3{
+      height: 340px;
+    }
+    .carousel-caption {
+      height: 13vh;
+      background-color: rgba(34, 34, 34, 0.8);
+      width: 50%;
+      margin-top: 175px;
+      margin-left: 50px;
+    }
+}

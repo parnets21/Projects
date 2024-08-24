@@ -1,0 +1,35 @@
+.whatsapp{
+    background-color: #55d35a;
+    border-radius: 35%;
+    bottom: 10px;
+    color: #fff;
+    height: 65px;
+    left: 10px;
+    padding: 10px;
+    position: fixed;
+    width: 65px;
+    z-index: 9999;
+
+}
+@media (max-width: 768px) {
+    .whatsapp {
+        height: 60px; /* Adjust height */
+        width: 60px; /* Adjust width */
+        padding: 5px; /* Adjust padding */
+        font-size: 20px; /* Adjust font size */
+        left: 5px; /* Adjust positioning */
+        bottom: 5px; /* Adjust positioning */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .whatsapp {
+        height: 50px; /* Further adjust height */
+        width: 50px; /* Further adjust width */
+        padding: 4px; /* Further adjust padding */
+        font-size: 18px; /* Further adjust font size */
+        left: 10px; /* Further adjust positioning */
+        bottom: 10px; /* Further adjust positioning */
+    }
+}

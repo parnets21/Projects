@@ -1,0 +1,57 @@
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Service section */
+#service {
+    background-color: #F8F9FA;
+    padding: 20px; /* Add padding for better spacing */
+    height: 85vh;
+}
+
+/* Service1 card */
+.service1 {
+    height: 201px;
+    width: 85%;
+    box-shadow: 0px 4px 10px 0px rgb(166, 166, 212);
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px; /* Add padding inside the card */
+    transition: all 0.3s ease; /* Smooth transition for responsiveness */
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and small screens */
+@media (max-width: 768px) {
+    .service1 {
+        height: auto; /* Adjust height for smaller screens */
+        width: 90%; /* Adjust width for better fit on tablets */
+        margin-top: 30px; /* Adjust top margin */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    #service{
+        width: 100%;
+       height: auto;
+        padding: 25px;
+    }
+
+    .service1 {
+        padding: 11px;
+        position: relative;
+        left: 20px;
+
+    }
+}
+

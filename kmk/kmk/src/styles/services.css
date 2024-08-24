@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#service1{
+    height: 62vh;
+    width: 100%;
+    background-color: green;
+    background-image: url("/public/Assets/kmkimg14.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.allmetal{
+    height: 75vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 51px;
+    margin-bottom: 50px;
+    padding: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.allmetal:hover{
+    background-color: green;
+    transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+  color: white;
+
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #service1 {
+      height: 50vh; /* Adjust height for tablets */
+      background-size: cover; /* Ensure background image scales */
+      background-position: center; /* Center the background image */
+    }
+  
+    .allmetal {
+      height: 95vh; /* Adjust height for tablets */
+      padding: 20px; /* Reduce padding for better fit on tablets */
+      margin-top: 30px; /* Adjust margin-top */
+      margin-bottom: 30px; /* Adjust margin-bottom */
+    }
+  
+    .allmetal:hover {
+      transform: scale(1.05); /* Slightly reduced scale for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #service1 {
+      height: 40vh; /* Further reduce height for small screens */
+    }
+  
+    .allmetal {
+      height: 90vh; /* Further reduce height for small screens */
+      padding: 15px; /* Further reduce padding */
+      margin-top: 20px; /* Further reduce margin-top */
+      margin-bottom: 20px; /* Further reduce margin-bottom */
+      line-height: 25px; /* Adjust line-height for better readability */
+    }
+  
+    .allmetal:hover {
+      transform: scale(1.05); /* Slightly reduced scale for small screens */
+    }
+  }
+  

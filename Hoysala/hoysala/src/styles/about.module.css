@@ -1,0 +1,936 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#about{
+    height: 45vh;
+    width: 100;
+    background-color:#b1c4cf;
+    display: flex;
+    justify-content: center;
+   background-image: url("https://www.atishgroup.com/wp-content/uploads/2021/05/banner-contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about>.heading{
+    height: 100%;
+    width: 59%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+#about>.heading>h1{
+    /* font-size: 50px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    position: relative;
+    left: 135px;
+    color: #034CA8;
+    
+}
+
+#about>.heading>h3{
+    position: relative;
+    top: 50px;
+    right: 265px;
+}
+#about>.call{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#about>.call>.contact{
+    height: 165px;
+    width: 355px;
+    background-color:#FFFFFF;
+    position: relative;
+    top: 75px;
+    right: 50px;
+    border-top: 10px solid #007bff;
+    box-shadow: 10px 10px 0px 5px rgb(235, 240, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+#about>.call>.contact>p{
+    font-weight: bold;
+    color: #16213E;
+}
+#about>.call>.contact:hover{
+    background-color:#007bff;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+
+/* Small devices (portrait phones, 480px and below) */
+@media (max-width: 480px) {
+    #about {
+        height: 65vh;
+        width: 100%;
+        background-color:#b1c4cf;
+      background-image: url("https://www.atishgroup.com/wp-content/uploads/2021/05/banner-contact.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+
+    #about > .heading {
+        width: 100%; /* Take full width on small screens */
+        text-align: center; /* Center align text */
+    }
+
+    #about > .heading > a>h1 {
+      display: none;
+        
+        
+    }
+
+    #about > .heading > a>h2 {
+              text-align: center;
+              position: inherit;
+              position: relative;
+              left: 15px;
+              font-size: 35px;
+              top: -30px;
+      
+    }
+
+    #about > .call {
+        /* width: 100%; Take full width on small screens */
+        text-align: center; /* Center align content */
+        align-items: center; /* Center align vertically */
+        height: 100px;
+        width: 500px;
+        position: relative;
+        top: 535px;
+        left:-170px;
+    }
+
+    #about > .call > .contact {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        position: relative;
+        top: -170px;
+        left: 20px
+    }
+}
+
+
+.about{
+    height: 100vh;
+   margin-top: 35px;
+}
+#About>.about{
+    height: 100vh ;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#About>.about>.img{
+    height: 100%;
+    width: 33%;
+    /* background-color: #1d10d8; */
+    /* background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/Photo-1321x2048.jpg"); */
+   background-image: url("/public/Assets/aboutus.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 75px;
+    
+}
+
+#About>.about>.content{
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+    padding: 70px;
+    color: #16213E;
+}
+#About>.about>.content>h3{
+    /* font-size: small; */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #034CA8;
+
+    
+}
+
+#About>.about>.content>div{
+    height: 250px;
+    width: 100%;
+    /* background-color: #F6F6F6; */
+    display: flex;
+}
+#About>.about>.content>div>.img{
+    height: 250px;
+    width: 40%;
+    background-color: #b910a2;
+    background-image: url("/public/Assets/about.png");
+    background-position: center center ;
+    background-size: 100% 100%;
+    height: 100%;
+    
+}
+#About>.about>.content>div>.heading{
+    height: 250px;
+    width: 60%;
+    /* background-color: #1d10d8; */
+}
+#About>.about>.content>div>.heading>p{
+   position: relative;
+   top: 0px;
+   /* left: 10px; */
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+#About>.about>.content>div>.heading>p{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    padding: 10px;
+}
+#About>.about>.content>.vision{
+     color: #007bff !important;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-top: 46px;
+    font-size: 18px;
+}
+#About>.about>.content>p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    /* font-size: 15px; */
+    /* font-weight: bold; */
+}
+#About>.about>.content>button{
+    height: 75px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #F45905;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+#About>.about>.content>button:hover{
+    background-color: #1d10d8;
+}
+
+@media (max-width: 480px) {
+    .about {
+        height: 100px; /* Adjust height as needed */
+        position: relative;
+        top: 0; /* Reset top position */
+    }
+
+    #About > .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position:relative;
+        top: 101px;
+    }
+
+    #About > .about > .img {
+        width: 80%; /* Adjust width to full viewport */
+        /* position: relative; */
+        height: 60vh; /* Adjust height as needed */
+        top: 115px;
+        padding: 170px;
+        left: -15px;
+        display: none;
+
+    }
+
+    #About > .about > .content {
+        width: 100%; /* Adjust width to full viewport */
+        padding: 10px; /* Adjust padding as needed */
+        position: relative;
+        /* top: 135px; */
+    }
+
+    #About > .about > .content > h1 {
+        font-size: 30px; /* Adjust font size */
+        font-weight: bold;
+    }
+
+    #About > .about > .content > div > .img {
+        height: 250px; /* Adjust height as needed */
+        border-left: none; /* Remove border for mobile */
+    }
+
+    #About > .about > .content > div > .heading {
+        height: 150px; /* Adjust height as needed */
+    }
+
+    #About > .about > .content > div > .heading > p,
+    #About > .about > .content > div > .heading > h6 {
+        margin-top: -6px; /* Adjust margin as needed */
+        padding: 0px; /* Adjust padding as needed */
+        font-size: 15px;
+    }
+
+    #About > .about > .content > button {
+        height: 70px; /* Adjust height as needed */
+        width: 100%; /* Adjust width to full viewport */
+        font-size: medium; /* Adjust font size */
+        margin-top: 30px; /* Adjust margin as needed */
+    }
+}
+
+
+
+
+/* Ensure #workprocess has proper positioning and dimensions */
+#workprocess {
+    height: 80vh;
+    width: 100%;
+  }
+  
+  /* Style for each step */
+  .col > .row2 > .consultation,
+  .col > .row2 > .planning,
+  .col > .row2 > .approval,
+  .col > .row3 > .construction,
+  .col > .row3 > .inspection,
+  .col > .row3 > .handover {
+    height: 100%;
+    width: 30%;
+    background-color: #fff; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .col > .row2 > .consultation:hover,
+  .col > .row2 > .planning:hover,
+  .col > .row2 > .approval:hover,
+  .col > .row3 > .construction:hover,
+  .col > .row3 > .inspection:hover,
+  .col > .row3 > .handover:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: add a more prominent shadow */
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Adjust text color on hover */
+  }
+  
+#workprocess{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    top: 170px;
+}
+.col{
+    height: 85vh;
+    width: 100%;
+    /* background-color: blue; */
+    /* background-image: url("C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\workprocess.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 10px;
+}
+.col>.row1{
+    height: 20%;
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+}
+.col>.row1>h2{
+    font-weight: bold;
+    color: #034CA8;
+}
+.col>.row1>p{
+    font-weight: bold;
+    color: #034CA8;
+}
+.col>.row2{
+    height: 35%;
+    width: 100%;
+    /* background-color: #3e3b16; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.col>.row2>.consultation{
+    height: 100%;
+    width: 30%;
+    /* background-color: #db15d1; */
+}
+.col>.row2>.consultation>h4{
+   margin-top: -18px;
+    /* background-color: #db15d1; */
+}
+.col>.row2>.consultation:hover{
+    height: 100%;
+    width: 30%;
+    background-color:#007bff;
+}
+.col>.row2>.planning{
+    height: 100%;
+    width: 30%;
+    /* background-color: #c7db15; */
+}
+.col>.row2>.planning:hover{
+    height: 100%;
+    width: 30%;
+    background-color:#007bff;
+}
+.col>.row2>.approval{
+    height: 100%;
+    width: 30%;
+    /* background-color: #3315db; */
+}
+.col>.row2>.approval:hover{
+    height: 100%;
+    width: 30%;
+    background-color: #007bff;
+}
+.col>.row3{
+    height: 35%;
+    width: 100%;
+    /* background-color: #16213E; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    top: 15px;
+}
+.col>.row3>.construction{
+    height: 100%;
+    width: 30%;
+    /* background-color: #3e162a; */
+}
+.col>.row3>.construction:hover{
+    height: 100%;
+    width: 30%;
+    background-color: #007bff;
+    transition: opacity 0.5s ease-in-out;
+}
+.col>.row3>.inspection{
+    height: 100%;
+    width: 30%;
+    /* background-color: #c4126b; */
+}
+.col>.row3>.inspection:hover{
+    height: 100%;
+    width: 30%;
+    background-color:#007bff;
+}
+.col>.row3>.handover{
+    height: 100%;
+    width: 30%;
+    /* background-color: #3e162a; */
+}
+.col>.row3>.handover:hover{
+    height: 100%;
+    width: 30%;
+    background-color:#007bff;
+}
+/* Media query for screens up to 480px wide */
+@media (max-width: 480px) {
+    /* Adjust #workprocess section */
+    #workprocess {
+        height: auto; /* Adjust height to fit content */
+        top: 145px;
+        /* margin-top: 80px; */
+    }
+
+    /* Adjust .col container */
+    .col {
+        height: auto; /* Adjust height to fit content */
+        background-size: cover; /* Maintain background image coverage */
+        padding: 0px; /* Add padding for spacing */
+    }
+
+    /* Adjust .row1 (title and description) */
+    .col > .row1 {
+        height: auto; /* Adjust height to fit content */
+        text-align: center; /* Center align text */
+        padding: 88px;
+        line-height: 1.5;
+        margin-top: -33px;
+    }
+
+    /* Adjust .row2 and .row3 (steps) */
+    .col > .row2,
+    .col > .row3 {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Add gap between items */
+    }
+
+    /* Adjust each step card */
+    .col > .row2 > .consultation,
+    .col > .row2 > .planning,
+    .col > .row2 > .approval,
+    .col > .row3 > .construction,
+    .col > .row3 > .inspection,
+    .col > .row3 > .handover {
+        width: 100%; /* Take full width */
+      
+        text-align: center; /* Center align text */
+    }
+
+    /* Adjust hover effect */
+    .col > .row2 > .consultation:hover,
+    .col > .row2 > .planning:hover,
+    .col > .row2 > .approval:hover,
+    .col > .row3 > .construction:hover,
+    .col > .row3 > .inspection:hover,
+    .col > .row3 > .handover:hover {
+        transform: none; /* Remove scaling on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reset box shadow */
+        background-color: #fff; /* Reset background color */
+        color: initial; /* Reset text color */
+    }
+}
+
+
+
+#corevalue{
+    height: 90vh;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    top: 202px;
+}
+.core{
+    height: 90vh;
+    width: 100%;
+    background-color: #2E548E;
+}
+
+.core>.value{
+    height: 20%;
+    width: 100%;
+    /* background-color:#ff8800; */
+    display: flex;
+    justify-content: center;
+
+}
+.core>.value>h2{
+    font-weight: bold;
+    /* color: #007bff; */
+    color: white;
+    margin-top: 45px;
+}
+.core>.value>h2:hover{
+    transform: scale(1.1); /* Scale up by 10% on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+.core>.value1{
+    height: 80%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.core>.value1>.quality{
+    height: 80%;
+    width: 25%;
+    background-color: #3462A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 19px;
+    color: white;
+}
+.core>.value1>.integrity{
+    height: 80%;
+    width: 25%;
+    background-color: #5D76AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 24px;
+    color: white;
+}
+.core>.value1>.innovation{
+    height: 80%;
+    width: 25%;
+    background-color: #6D8BC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 17px;
+    color: white;
+}
+.core>.value1>.satisfaction{
+    height: 80%;
+    width: 25%;
+    background-color: #848cf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 22px;
+    color: white;
+}
+.core > .value1 > .quality:hover,
+.core > .value1 > .integrity:hover,
+.core > .value1 > .innovation:hover,
+.core > .value1 > .satisfaction:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+/* Media query for screens up to 480px wide */
+@media (max-width: 480px) {
+    #corevalue {
+        height: auto; /* Adjust height to fit content */
+        top: 146px; /* Reset the position */
+    }
+    .core {
+        height: auto; /* Adjust height to fit content */
+    }
+    .core > .value {
+        height: auto; /* Adjust height to fit content */
+        padding: 10px 0; /* Add padding for spacing */
+    }
+    .core > .value1 {
+        height: auto; /* Adjust height to fit content */
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Add gap between items */
+    }
+    .core > .value1 > .quality,
+    .core > .value1 > .integrity,
+    .core > .value1 > .innovation,
+    .core > .value1 > .satisfaction {
+        width: 100%; /* Take full width */
+        padding: 15px; /* Adjust padding */
+        text-align: center; /* Center text */
+    }
+    .core > .value1 > .quality img,
+    .core > .value1 > .integrity img,
+    .core > .value1 > .innovation img,
+    .core > .value1 > .satisfaction img {
+        height: 80px; /* Decrease image size */
+        width: 80px;
+    }
+    .core > .value1 > .quality h4,
+    .core > .value1 > .integrity h4,
+    .core > .value1 > .innovation h4,
+    .core > .value1 > .satisfaction h4 {
+        font-size: 18px; /* Adjust font size */
+    }
+    .core > .value1 > .quality p,
+    .core > .value1 > .integrity p,
+    .core > .value1 > .innovation p,
+    .core > .value1 > .satisfaction p {
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+
+
+
+.paragraph{
+    width: 100%;
+    position: relative;
+    top: 215px;
+ font-weight: bold;
+ text-align: center;
+}
+.paragraph>.para{
+    font-weight: bold;
+    /* font-size: 25px; */
+    color:  #034CA8;
+}
+.paragraph>p{
+    font-weight: bold;
+    /* font-size: 25px; */
+    color:  #034CA8;
+}
+#About>.ourteam{
+    height: 110vh;
+    width: 100%;
+    /* background-color: #5610d8; */
+    position: relative;
+    top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#About>.ourteam>.content{
+    height: 90%;
+    width: 45%;
+
+    /* background-color: #d810a6; */
+}
+#About>.ourteam>.content>div{
+    margin-top: 7px;
+    padding: 0px;
+}
+
+#About>.ourteam>.content>.para>p{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #034CA8;
+}
+
+#About>.ourteam>.content>.teamcontainer{
+    position: relative;
+    left: 40px;
+    line-height: 0px;
+    position: relative;
+    top: 65px;
+}
+#About>.ourteam>.content>.teamcontainer>p{
+    /* margin-left: 85px; */
+    position: relative;
+    top: -13px;
+    left: 220px;
+}
+#About>.ourteam>.content>.teamcontainer>img{
+    /* margin-left: 85px; */
+    position: relative;
+    /* top: -50px; */
+    left: 90px;
+    /* padding: 10px; */
+}
+#About>.ourteam>.content>.teamcontainer>b{
+    /* margin-left: 85px; */
+    position: relative;
+    left: 150px;
+}
+#About>.ourteam>.content>button{
+    height: 75px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #F45905;
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}
+#About>.ourteam>.image{
+    height: 65%;
+    width: 35%;
+    /* background-color: #3b10d8; */
+    background-image: url("/public/Assets/teamimage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width: 480px) {
+    #About > .ourteam {
+        height: auto; /* Adjust height as needed */
+        top: 200px; /* Reset top position */
+        padding: 20px; /* Add padding for spacing */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center items vertically */
+        width: 100%;
+    }
+    #About>.ourteam>.content>.teamcontainer>p{
+       width: 50%;
+    }
+    #about_About__7u0vn > .about_ourteam__agK5o{
+        margin-top: 98px;
+        margin-bottom: 82px;
+    }
+    #About>.ourteam>.content>.teamcontainer{
+        position: relative;
+        top: -121px;
+        left: -41px;
+
+    }
+    #About > .ourteam > .content {
+        width: 100%; /* Full width */
+        position: relative;
+        top: 50px;
+    }
+    #About>.ourteam>.content>.para>p{
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    #About>.ourteam>.content>.para>h5{
+        position: relative;
+        left: -201px;
+        /* left: 76px; */
+        top: -100px;
+        width: 39%;
+    }
+    #About > .ourteam > .content > button {
+        margin-top: 80px; /* Adjust margin */
+        width: 100%;
+    }
+
+    #About > .ourteam > .image {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        top: -82px;
+
+    }
+    .teamDescription {
+       display: none;
+      }
+      .paragraph{
+        position: relative;
+        top: 165px;
+    }
+}
+
+
+
+
+/* team.module.css */
+
+.teamContainer {
+    max-width: 800px;
+    margin-top: 25px;
+    padding: 5px;
+  }
+  
+  .teamInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .teamDescription {
+    /* margin-top: -12px; */
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: bold;
+    position: relative;
+    /* top: 15px; */
+    text-align: center;
+    color: #034CA8;
+  }
+  
+
+
+
+
+
+#About>.getquote{
+    height: 55vh;
+    width: 100%;
+    background-color: #5610d8;
+    position: relative;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/industrial-landscape-with-silhouettes-of-cranes-on-MJ8EP9R-1-1.jpg");
+    background-size:  cover;
+    background-position: center center;
+    object-fit: cover;
+    display: none;
+}
+#About>.getquote>.content>h1{
+    font-size: xxx-large;
+    font-weight: bolder;
+    color:white ;
+    position: relative;
+    bottom: 50px;
+}
+#About>.getquote>.content>p{
+    position: relative;
+    /* left: 150px;
+    top: -50px; */
+}
+
+.quote{
+    font-size: xx-large;
+    color: white;
+   margin-left: 100px;
+}
+.quote1{
+    font-size: large;
+    color: white;
+    margin-top: 30px;
+
+}
+#About>.getquote>.content>button{
+    height: 75px;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #F45905;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+
+}
+
+@media (max-width: 480px) {
+    #About > .getquote {
+        height: auto; /* Adjust height as needed */
+        top: 275px; /* Reset top position */
+        padding: 20px; /* Add padding for spacing */
+        text-align: center; /* Center text */
+        width: 95%;
+    }
+
+    #About > .getquote > .content > h1 {
+        font-size: large; /* Adjust font size */
+        bottom: 0; /* Reset bottom position */
+        margin-bottom: 10px; /* Adjust margin */
+    }
+
+    .quote {
+        font-size: medium; /* Adjust font size */
+        position: relative;
+        left: -48px;
+        top: 0px;
+    }
+
+    .quote1 {
+        font-size: small; /* Adjust font size */
+        margin-top: 20px; /* Adjust margin */
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+
+    #About > .getquote > .content > button {
+        margin-left: 0; /* Reset margin */
+        margin-top: 30px; /* Adjust margin */
+    }
+}
+
+
+
+
+

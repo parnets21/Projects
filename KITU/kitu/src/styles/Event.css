@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all-event {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.event-card {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(209, 209, 224);
+    margin-top: 51px;
+    margin-bottom: 51px;
+    background-image: url("/public/Assets/image5.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.event-card-content {
+    height: 80px;
+    width: 96%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
+
+.event-card-content-hover {
+    height: auto;
+    width: 96%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    border: none;
+    padding: 19px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(100%);
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.event-card:hover .event-card-content-hover {
+    display: flex;
+    transform: translateY(0);
+}
+
+.event-butt {
+    height: 35px;
+    width: 101px;
+    border: none;
+    background: red;
+    border-radius: 19px;
+    color: white;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .event-card {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .event-card-content,
+    .event-card-content-hover {
+        width: 95%;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .event-card-content-hover {
+        transform: translateY(100%);
+        text-align: center;
+    }
+
+    .event-butt {
+        width: 100px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-card {
+        height: 302px;
+    }
+
+    .event-card-content,
+    .event-card-content-hover {
+        padding: 4px;
+        font-size: 0.85rem;
+    }
+
+    .event-butt {
+        width: 90px;
+        font-size: 0.75rem;
+    }
+}

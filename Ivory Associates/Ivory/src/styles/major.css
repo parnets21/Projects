@@ -1,0 +1,118 @@
+.major{
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: black;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+  }
+ 
+ 
+  .majorsector {
+    height: 83px;
+    font-family: 'Courier', monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 5.5s steps(30, end) 1s infinite, blink-caret .75s step-end infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 395px;
+   
+}
+
+/* Apply specific styling to the text */
+.majorsector > h1 {
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+/* Typing effect */
+@keyframes typing {
+    0% { width: 0; }
+    80% { width: 100%; } /* Hold the full text for a while */
+    100% { width: 0; } /* Hide the text before restarting */
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+  .clientslogo{
+    width: 100%;
+    height: 95px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+  .major:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+  
+  
+  }
+  
+  #ourclients {
+    background-color: #f8f9fa;
+    margin-top: -50px;
+    height: 275px;
+  }
+  
+  .ourclients h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    color: green;
+    position: relative;
+  
+  
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .clientslogo {
+    display: block;
+    width: 100%;
+    height: 135px;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .slick-slider{
+    padding-top: 51px;
+  }
+  .slick-slide {
+    text-align: center;
+  }
+  
+  /* Styles for the Slick Carousel dots (navigation) */
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-dots li button:before {
+    color: #333; /* Dot color */
+  }
+  
+  .slick-prev, .slick-next {
+    color: #333; /* Arrow color */
+  }
+  
+  @media  (max-width:480px){
+    .slick-next{
+      display: none;
+    }
+    .major{
+      display: none;
+      width: 100% !important;
+    }
+    .majorsector {
+      width: 100% !important;
+    }
+  }

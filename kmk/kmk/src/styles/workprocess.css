@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.workprocess{
+    height: 85vh;
+    width: 100%;
+    /* background-image: url("/C:\Users\DELL\Desktop\Homestay\Coaching\public\Assets\workprocess.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 15px;
+}
+.workprocess>.r1{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+.workprocess>.r1>h2{
+    font-weight: bold;
+    color: #007bff;
+}
+.workprocess>.r2{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+.workprocess>.r1>p{
+    font-weight: bold;
+}
+.workprocess>.r2>.consultation{
+    height: 200px;
+    background-color: blueviolet;
+ }
+
+.consultation:hover{
+    background-color:#007bff;
+}
+.workprocess>.r2>.planning{
+    height: 200px;
+    background-color: blueviolet;
+}
+.workprocess>.r2>.approval{
+    height: 200px;
+     background-color: blueviolet;
+ }
+ .workprocess>.r2>.construction{
+    height: 200px;
+     background-color: blueviolet;
+ }
+ .workprocess>.r2>.inspection{
+    height: 200px;
+     background-color: blueviolet;
+ }
+ .workprocess>.r2>.handover{
+    height: 200px;
+     background-color: blueviolet;
+ }
+
+
+
+  /* Style for each step */
+.consultation,
+.planning,
+.approval,
+.construction,
+.inspection,
+.handover {
+    height: 100%;
+    width: 30%;
+    background-color: #fff; /* Default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+ .consultation:hover,
+ .planning:hover,
+ .approval:hover,
+ .construction:hover,
+ .inspection:hover,
+ .handover:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: add a more prominent shadow */
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Adjust text color on hover */
+  }
+  

@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#about{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #F8F9FA;
+}
+.images>img{
+    width: 100%;
+}
+#about1{
+    margin-top: 75px;
+    height: 64vh;
+}
+
+.img{
+    background-image: url("/public//Assets/dot.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.what-we-do{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 4px 10px 0px rgb(166, 166, 212);
+    border-radius: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    
+ 
+}
+
+
+
+@media (max-width: 768px) {
+    #about1 {
+        height: 60vh; /* Adjust height for smaller screens */
+        margin-top: 50px; /* Adjust top margin */
+    }
+
+    .what-we-do {
+        height: 150px; /* Adjust size for smaller screens */
+        width: 150px;
+        line-height: 40px; /* Adjust line-height */
+        margin-top: 30px; /* Adjust top margin */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    #about {
+        margin-top: 20px; /* Adjust top margin for mobile screens */
+    }
+
+    #about1 {
+        height: 115vh;
+        margin-top: 25px;
+        padding: 15px;
+
+
+    }
+
+    .what-we-do {
+        height: 100px; /* Further adjust size for mobile screens */
+        width: 100px;
+        line-height: 30px; /* Adjust line-height */
+        margin-top: 20px; /* Adjust top margin */
+        position: relative;
+        left: 95px;
+    }
+}

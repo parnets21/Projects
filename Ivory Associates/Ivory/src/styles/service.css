@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.serviece{
+    height: 67px;
+    width: 250px;
+ 
+    display: flex;
+    
+    flex-direction: column;
+    margin: 18px;
+    box-shadow: 0 0 8px ;
+}
+.butt{
+    position: relative;
+    top: 12px;
+    border-radius: 2px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+.butt:hover{
+    background-color: black;
+    color: white;
+}
+
+.ourservice{
+    text-align: center;
+    height: 61px;
+    /* width: 281px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.detailservicees{
+    text-align: center;
+    padding: 0px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.detailservicees>p{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 29px;
+}
+
+/* styles.css */
+/* .ourservice h1 {
+   
+    font-weight: bold;
+    background: linear-gradient(90deg, red, indigo, yellow, green, blue, orange, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    animation: colorChange 7s infinite;
+} */
+
+@keyframes colorChange {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+@media (max-width: 768px) {
+    .detailservicees {
+        height: auto; /* Allow height to adjust automatically */
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .detailservicees > p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .ourservice h1 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+        background-size: 200%;
+    }
+}
+
+/* For mobile phones and smaller screens */
+@media (max-width: 480px) {
+    .detailservicees {
+        height: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .detailservicees > p {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .ourservice h1 {
+        font-size: 1.5em; /* Further adjust font size for smaller screens */
+        background-size: 150%;
+    }
+}

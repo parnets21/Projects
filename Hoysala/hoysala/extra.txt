@@ -1,0 +1,414 @@
+
+@media (max-width: 480px) {
+    #About > .ourteam {
+        height: auto; /* Adjust height as needed */
+        top: 200px; /* Reset top position */
+        padding: 20px; /* Add padding for spacing */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center items vertically */
+        width: 100%;
+    }
+
+    #About > .ourteam > .content {
+        width: 100%; /* Full width */
+        position: relative;
+        top: 300px;
+    }
+    #About > .ourteam > .content > h5 {
+        position:relative; /* Reset position */
+        top: 55; /* Reset top position */
+        left: 139px;
+        width: 40%;
+    }
+
+    #About > .ourteam > .content > button {
+        margin-top: 80px; /* Adjust margin */
+        width: 100%;
+    }
+
+    #About > .ourteam > .image {
+        width: 100%; /* Full width */
+        height: 70vh; /* Adjust height */
+        margin-top: 20px; /* Adjust margin */
+        position: relative;
+        top: 295px;
+    }
+}
+
+
+
+
+
+
+#projectgrid{
+    height: 150vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    top: 200px;
+}
+#projectgrid>.project{
+    height: 100%;
+    width: 83%;
+}
+
+#projectgrid>.project>.project1{
+    height: 33%;
+    width: 100%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content:end;
+}
+#projectgrid>.project>.project1>.project11{
+    height: 100%;
+    width: 33%;
+    background-color: #d810b7;
+    background-image: url("");
+    position: relative;
+    /* top: 25px; */
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/01/cf234dc93a1f7cf4a6e77dbf8ca64e6607b308aa.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project1>.project12{
+    height: 100%;
+    width: 33%;
+    background-color: #d83f10;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/01/bf513378f03ac7965c4b65ef19fef1f493afa616.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project1>.project13{
+    height: 100%;
+    width: 33%;
+    background-color: #c7aba2;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/office-buildings-modern-glass-silhouettes-on-moder-PRADEQE-1-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+
+#projectgrid>.project>.project2{
+    height: 33%;
+    width: 100%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content:end;
+}
+#projectgrid>.project>.project2>.project21{
+    height: 100%;
+    width: 33%;
+    background-color: #d810b7;
+    background-image: url("");
+    position: relative;
+    /* top: 25px; */
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/office-building-P6EY7D6-1-5.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project2>.project22{
+    height: 100%;
+    width: 33%;
+    background-color: #d83f10;
+    background-image: url("http://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/jimmy-chang-ACt8ycSzpdE-unsplash-1-3.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project2>.project23{
+    height: 100%;
+    width: 33%;
+    background-color: #c7aba2;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/z-s-f0BcqYl_5NY-unsplash-1-5-768x828.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project3{
+    height: 33%;
+    width: 100%;
+    /* background-color: #10d831; */
+    display: flex;
+    justify-content: end;
+}
+#projectgrid>.project>.project3>.project31{
+    height: 100%;
+    width: 33%;
+    background-color: #5610d8;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/xrdes-PHgbWpst8UA-unsplash-1-4-768x828.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project3>.project32{
+    height: 100%;
+    width: 33%;
+    background-color: #d8c410;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/leohoho-YcD8ak707AM-unsplash-1-5-768x828.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+#projectgrid>.project>.project3>.project33{
+    height: 100%;
+    width: 33%;
+    background-color: #d8c410;
+    background-image: url("https://rayoflightthemes.com/wordpress-themes/dustro-wordpress-theme/wp-content/uploads/2021/02/scott-webb-kAJE-3_4zHE-unsplash-1-3.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 10px solid white;
+}
+
+#projectgrid .project .project1 .project11:hover::after{
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width to fit */
+    padding: 10px;
+}
+
+#projectgrid .project .project1 .project12:hover::after{
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 18%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 23%; /* Adjust width to fit */
+    padding: 10px;
+}
+
+#projectgrid .project .project1 .project13:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 25%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project2 .project21:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project2 .project22:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 23%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project2 .project23:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 25%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project3 .project31:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 83%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    width: 25%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project3 .project32:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 83%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 23%; /* Adjust width to fit */
+    padding: 10px;
+}
+#projectgrid .project .project3 .project33:hover::after {
+    content: attr(data-content); /* Use data-content attribute for custom text */
+    color: blue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: bold;
+    background-color: rgba(57, 16, 241, 0.8); /* Semi-transparent white background */
+    position: absolute;
+    top: 83%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 25%; /* Adjust width to fit */
+    padding: 10px;
+  }
+
+  
+#projectgrid .project .project1 .project11:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color:  rgb(247, 247, 248);
+}
+#projectgrid .project .project1 .project12:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project1 .project13:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project2 .project21:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project2 .project22:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project2 .project23:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project3 .project31:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project3 .project32:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+}
+#projectgrid .project .project3 .project33:hover::after {
+    content: "COMMERCIAL Benoit Architecture";
+    color: white;
+  }
+
+
+  @media (max-width: 480px) {
+    #projectgrid {
+        height: auto; /* Adjust height as needed */
+        top:110; /* Reset top position */
+        padding: 20px; /* Add padding for spacing */
+    }
+#projectgrid>.project{
+    width: 100%;
+}
+    #projectgrid>.project>.project1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 150vh;
+        width: 100%
+}
+    #projectgrid > .project > .project2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+        background-color: #5610d8;
+    
+    }
+    #projectgrid > .project > .project1>.project11,
+    #projectgrid > .project > .project1>.project12,
+    #projectgrid > .project > .project1>.project13{
+        width: 100%;
+    }
+    #projectgrid > .project > .project2>.project21,
+    #projectgrid > .project > .project2>.project22,
+    #projectgrid > .project > .project2>.project23{
+        width: 100%;
+    }
+    #projectgrid > .project > .project3>.project31,
+    #projectgrid > .project > .project3>.project32,
+    #projectgrid > .project > .project3>.project33{
+        width: 100%;
+    }
+    #projectgrid > .project > .project3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 800px;
+    }
+}

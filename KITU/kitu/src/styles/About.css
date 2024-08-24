@@ -1,0 +1,102 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#about {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text for smaller screens */
+    padding: 0 15px; /* Add padding for small screens */
+}
+
+#about .about {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center; /* Center text */
+}
+
+/* Sections */
+#sec1, #sec2, #sec3 {
+    margin-top: 50px;
+}
+
+.why-join, .why-donate {
+    width: 100%;
+}
+
+.joinus, .donate {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+   margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #about {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 20px; /* Add padding */
+    }
+
+    #about .about {
+        width: 90%; /* Adjust width */
+    }
+
+    .container img {
+        height: auto; /* Adjust height */
+        width: 100%; /* Full width */
+    }
+
+    #sec1 img, #sec2 img, #sec3 img {
+        width: 100% !important;
+        height: 325px !important;
+        padding: 7px;
+    }
+
+    h1{
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph size */
+    }
+
+    .joinus, .donate {
+        width: 100%; /* Full width */
+        font-size: 18px; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    #about .about {
+        width: 100%; /* Full width */
+    }
+
+    p {
+        font-size: 0.9rem; /* Further adjust paragraph size */
+    }
+
+    .joinus, .donate {
+        width: 40%;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        height: 41px;
+
+    }
+}
